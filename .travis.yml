@@ -9,6 +9,7 @@ script:
 
 deploy:
   provider: heroku
+  skip_cleanup: true
   app: "jf-jdjobs-dev"
   api_key: "952e3585-e86e-4f83-885e-77e82c839710"
   on:
