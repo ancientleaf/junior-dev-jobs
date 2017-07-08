@@ -8,8 +8,8 @@ script:
   - ./build/linux/build.sh
 
 deploy:
-  provider: "heroku"
-    api_key: "952e3585-e86e-4f83-885e-77e82c839710"
-    app: "jf-jdjobs-dev"
+  provider: heroku
+  app: "jf-jdjobs-dev"
+  api_key: "952e3585-e86e-4f83-885e-77e82c839710"
   on:
     all_branches: true
